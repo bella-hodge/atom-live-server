@@ -1,1 +1,1 @@
-This project is currently untitled.
+This project might become a photo centric blog encompassing all the greatness that Louisville has to offer. This includes great local food, art museums and exhibits, entertainment and special events (i.e. Derby and Forecastle).
