@@ -1,1 +1,1 @@
-This project might become a photo centric blog encompassing all the greatness that Louisville has to offer. This includes local food, art museums and exhibits, entertainment and special events (i.e. Derby and Forecastle).
+This project will be a vegetarian food blog. It will rely heavily on photography.
