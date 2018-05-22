@@ -1,1 +1,1 @@
-This project will be a vegetarian food blog. It will rely heavily on photography.
+This project will be a blog dedicated to my cat, Cushions.
