@@ -1,4 +1,14 @@
 h1 {
-  background-color: #607d8b;
-  color: #ffffff;
-}
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 46px;
+    margin: 0 0 23px 0;
+    }
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23px;
+    margin: 0 0 23px 0;
+    }
