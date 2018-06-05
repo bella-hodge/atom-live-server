@@ -1,15 +1,41 @@
 h1 {
+    text-align: center;
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
     line-height: 120px;
     font-size: 120px;
     margin: 0 0 23px 0;
+    color: #606060;
     }
 
 p {
+    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 23px;
     margin: 0 0 23px 0;
+    color: #606060;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 3;
+        padding: 3;
+        overflow: hidden;
+        background-color: #fdf3f2;
+        font-family: 'Josefin Sans Light', sans-serif;
+        font-size: 14px;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: #606060;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
     }
