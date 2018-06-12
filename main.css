@@ -94,3 +94,13 @@ hr {
   width: 20%;
   color: #606060;
   }
+
+footer {
+  list-style-type: none;
+  margin: 3;
+  padding: 1;
+  overflow: hidden;
+  background-color: #eaceca;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 10px;
+  }
