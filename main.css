@@ -1,6 +1,6 @@
 body{
   background-color: #fbf9f9;
-}
+  }
 
 h1 {
   text-align: center;
@@ -98,9 +98,13 @@ hr {
 footer {
   list-style-type: none;
   margin: 3;
-  padding: 1;
   overflow: hidden;
   background-color: #eaceca;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 10px;
+  display: block;
+  color: #606060;
+  text-align: center;
+  padding: 7px 0px;
+  text-decoration: none;
   }
