@@ -52,6 +52,10 @@ p {
   line-height: 23px;
   margin: 0 0 25px 0;
   color: #606060;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px;
   }
 
 ul {
@@ -77,10 +81,10 @@ li a {
   }
 
 div {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-right: 30px;
   padding-bottom: 50px;
-  padding-left: 80px;
+  padding-left: 30px;
   }
 
 hr {
@@ -95,6 +99,23 @@ hr {
   color: #606060;
   }
 
+button {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 100;
+  line-height: 40px;
+  font-size: 14px;
+  font-style: none;
+  margin: auto;
+  display: block;
+  background-color: #eaceca;
+  }
+
+a {
+  color: #606060;
+  text-decoration: none;
+  }
+
 footer {
   list-style-type: none;
   margin: 3;
@@ -105,6 +126,6 @@ footer {
   display: block;
   color: #606060;
   text-align: center;
-  padding: 7px 0px;
+  padding-top: 10px;
   text-decoration: none;
   }
