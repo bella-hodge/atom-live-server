@@ -1,4 +1,8 @@
-body{
+/* =================================
+  Base Styles
+==================================== */
+
+body {
   background-color: #fbf9f9;
   }
 
@@ -70,6 +74,7 @@ ul {
 
 li {
   float: left;
+  font-family: 'Josefin Sans', sans-serif;
   }
 
 li a {
@@ -116,16 +121,24 @@ a {
   text-decoration: none;
   }
 
-footer {
+.main-footer {
   list-style-type: none;
   margin: 3;
+  padding: 3;
   overflow: hidden;
   background-color: #eaceca;
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   display: block;
   color: #606060;
   text-align: center;
-  padding-top: 10px;
+  padding: 14px 16px;
   text-decoration: none;
+  height: 20px;
+  }
+
+.footer-inner {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1150px;
   }
