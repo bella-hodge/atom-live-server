@@ -1,34 +1,62 @@
 <html>
 
   <head>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/flexbox.css">
-    <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:700|Amatic+SC:700" rel="stylesheet" type="text/css" /> <!--/.font styles-->
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:700|Amatic+SC:700" rel="stylesheet" type="text/css" />
 
+    <!-- Title -->
     <title>
       Cushions the Cat
-    </title> <!--/.title-->
+    </title>
 
+    <!-- Nav Bar -->
     <ul>
-      <li><a href="default.asp">home</a></li>
-      <li><a href="about.asp">about</a></li>
-      <li><a href="gallery.asp">gallery</a></li>
-      <li><a href="contact.asp">contact</a></li>
-    </ul> <!--/.navbar-->
+      <li><a href="index.html">home</a></li>
+      <li><a href="articles/article.html">about</a></li>
+      <li><a href="https://booluh.imgbb.com/">gallery</a></li>
+      <li><a href="contact_form.html">contact</a></li>
+    </ul>
 
+    <!-- Main Header -->
     <h1>
       Cushions the Cat
     </h1>
-  </head> <!--/.main-header-->
+  </head>
 
   <body>
-    <div>
-      <h3>I'm just a fat 'ol cat.</h3> <!--/.tagline under header-->
+  <!-- Image Carousel -->
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
 
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://image.ibb.co/fMZHWd/Cushions.jpg" alt="Cat looking up" border="0">
+    </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://image.ibb.co/n2VSxJ/IMG_0396.jpg" alt="Cat looking right" border="0">
+    </div>
+
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://image.ibb.co/nEnFHJ/IMG_0395.jpg" alt="Cat looking left" border="0">
+    </div>
+  </div>
+  </div>
+
+    <!-- Tagline under Carousel -->
+    <h3>I'm just a fat 'ol cat.</h3>
+
+    <!-- Main Body Text -->
       <h2>A Day in the Life of a Fat Cat</h2>
         <p>Meow meow meow meow meow meow!</p>
         <p>Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow.</p> <!--/.article-->
 
+    <!-- First Article -->
       <article>
         <h2>About Me</h2>
         <hr>
@@ -41,6 +69,7 @@
           </div>
       </article>
 
+    <!-- Second Article -->
       <article>
           <h2>Meow</h2>
           <hr>
@@ -52,6 +81,7 @@
           </div>
       </article>
 
+    <!-- Third Article -->
       <article>
           <h2>Meow</h2>
           <hr>
@@ -63,13 +93,17 @@
           </div>
       </article>
 
+    <!-- Footer -->
       <footer class="main-footer">
         <div class="footer-inner">
           <span>&copy;2018 Cushions the Cat's Blog | All Rights Reserved</span>
         </div>
       </footer>
 
-    </div>
+      </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
   </body>
 
 </html>

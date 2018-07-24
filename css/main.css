@@ -132,13 +132,25 @@ a {
   display: block;
   color: #606060;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px;
   text-decoration: none;
-  height: 20px;
+  height: 55px;
   }
 
 .footer-inner {
   width: 80%;
   margin: 0 auto;
   max-width: 1150px;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 960;
+  height: 640;
+  }
+
+.carousel-inner img {
+  margin: auto;
   }
