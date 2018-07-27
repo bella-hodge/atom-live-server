@@ -1,0 +1,34 @@
+/* =================================
+  Base Styles for Contact Modal
+==================================== */
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    line-height: 40px;
+    font-size: 14px;
+    font-style: none;
+    margin: auto;
+    display: block;
+    background-color: #eaceca;
+}
+
+.modal-content {
+    background-color: #eaceca;
+    margin: auto;
+    padding: 30px;
+    width: 100%;
+}
+
+.close {
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+}

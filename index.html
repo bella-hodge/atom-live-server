@@ -1,9 +1,7 @@
 <html>
 
   <head>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
@@ -20,7 +18,6 @@
       <li><a href="index.html">home</a></li>
       <li><a href="articles/article.html">about</a></li>
       <li><a href="https://booluh.imgbb.com/">gallery</a></li>
-      <li><a href="contact_form.html">contact</a></li>
     </ul>
 
     <!-- Main Header -->
@@ -47,6 +44,26 @@
     </div>
   </div>
   </div>
+
+    <!-- Contact Modal -->
+  <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#contactModal">Contact Me!</button>
+
+   <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactLabel" aria-hidden="true">
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                   <h4 class="modal-title" id="contactLabel">Contact Info.</h4>
+               </div>
+               <div class="modal-body">
+                   cushionsthecat@meowmail.com
+               </div>
+               <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+           </div>
+       </div>
+   </div>
 
     <!-- Tagline under Carousel -->
     <h3>I'm just a fat 'ol cat.</h3>
@@ -104,6 +121,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src= "javascript/contact_form.js"></script>
   </body>
 
 </html>
